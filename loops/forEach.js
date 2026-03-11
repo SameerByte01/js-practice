@@ -1,0 +1,23 @@
+// let names = ["Ali", "Zain", "Fatima", "Muhammad"];
+
+// let length = names.length;
+
+// for (let i = 0; i < length; i++) {
+//   const element = names[i];
+//   console.log(element);
+// }
+
+// names.forEach(loop);
+
+// function loop(value, index) {
+//   console.log(index, ". ", value);
+//   console.log(names[1]);
+// }
+
+let names = ["Ali", "Zain", "Fatima", "Muhammad", "Sameer", "Wajid"];
+
+names.forEach(loop);
+function loop(value, index) {
+  console.log(index, ".", value);
+  console.log(names);
+}
