@@ -27,6 +27,4 @@ let stdNames = ["sameer", "ali", "kamran", "zahra", "hussain"];
 //   console.log(values.toUpperCase(), values.slice(1));
 // });
 
-stdNames = names.forEach((index, value) => {
-  console.log(index, value);
-});
+stdNames.forEach((index, value) => console.log(index, value));
