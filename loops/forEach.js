@@ -22,11 +22,14 @@
 //   console.log(names);
 // }
 
-let stdNames = ["sameer", "ali", "kamran", "zahra", "hussain"];
-// stdNames.forEach(function (values) {
-//   console.log(values.toUpperCase(), values.slice(1));
-// });
+// let stdNames = ["sameer", "ali", "kamran", "zahra", "hussain"];
+// // stdNames.forEach(function (values) {
+// //   console.log(values.toUpperCase(), values.slice(1));
+// // });
 
-stdNames = names.forEach((index, value) => {
-  console.log(index, value);
-});
+// // stdNames = names.forEach((index, value) => {
+// //   console.log(index, value);
+// //
+// stdNames.map(function (values, index) {
+//   console.log(index + ": " + values);
+// });

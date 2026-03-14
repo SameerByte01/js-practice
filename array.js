@@ -12,7 +12,7 @@ console.log(colors);
 colors.unshift("Blue"); //add element in first
 console.log(colors);
 
-colors.shift(); //wremove element in first
+colors.shift(); //remove element in first
 console.log(colors);
 
 let std_data = ["Sameer", "Ali", "Abbas", "Haider"];
