@@ -1,0 +1,11 @@
+span{
+    background-color: gray;
+    color: white;
+    padding: 20px 30px ;
+}
+button{
+    padding: auto;
+    outline: none;
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
