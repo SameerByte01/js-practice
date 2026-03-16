@@ -10,7 +10,14 @@
   <body>
     <h1>ToDo App</h1>
     <input id="task" type="text" placeholder="Enter a text" />
-    <button onclick="addTask()">+</button>
+    <div class="btn">
+      <button onclick="addTask()">+</button>
+      <button onclick="removeTask()">reset</button>
+    </div>
+    <div class="theme">
+      <button onclick="darktheme()">Dark</button>
+      <button onclick="lighttheme()">White</button>
+    </div>
     <ul id="list"></ul>
   </body>
 
