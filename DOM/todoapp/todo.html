@@ -9,14 +9,14 @@
 
   <body>
     <h1>ToDo App</h1>
-    <input id="task" type="text" placeholder="Enter a text" />
+    <input id="input" type="text" placeholder="Enter a text" />
     <div class="btn">
-      <button onclick="addTask()">+</button>
-      <button onclick="removeTask()">reset</button>
+      <button onclick="todoapp.addItem()">+</button>
+      <button onclick="todoapp.clearAll()">reset</button>
     </div>
     <div class="theme">
-      <button onclick="darktheme()">Dark</button>
-      <button onclick="lighttheme()">White</button>
+      <button onclick="todoapp.darktheme()">Dark</button>
+      <button onclick="lighttheme()">Light</button>
     </div>
     <ul id="list"></ul>
   </body>
