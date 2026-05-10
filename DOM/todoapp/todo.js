@@ -76,46 +76,63 @@
 
 // ========================================================================
 
-let theme = document.querySelector("body");
-let input = document.getElementById("input");
-let todolist = document.querySelector("#list");
-list = [];
+// let theme = document.querySelector("body");
+// let input = document.getElementById("input");
+// let todolist = document.querySelector("#list");
+// list = [];
+// // darktheme = () => {
+// //   theme.style.backgroundColor = "black";
+// //   list.style.color = "white";
+// // };
 
-// darktheme = () => {
-//   theme.style.backgroundColor = "black";
-//   list.style.color = "white";
+// lighttheme = () => {
+//   theme.style.backgroundColor = "white";
 // };
 
-lighttheme = () => {
-  theme.style.backgroundColor = "white";
-};
+// let todoapp = {
+//   addItem() {
+//     if (input.value) {
+//       list.push(input.value);
+//       input.value = "";
+//     }
+//     this.mainfun();
+//   },
+//   mainfun() {
+//     todolist.innerHTML = "";
+//     list.forEach((value, index) => {
+//       todolist.innerHTML += `<li> ${value}
+//       <button onclick = "todoapp.delete(${index})">x</button></li>`;
+//     });
+//   },
+//   delete(index) {
+//     list.splice(index, 1);
+//     this.mainfun();
+//   },
+//   clearAll() {
+//     list.splice(0, list.length);
+//     this.mainfun();
+//   },
 
-let todoapp = {
-  addItem() {
-    if (input.value) {
-      list.push(input.value);
-      input.value = "";
-    }
-    this.mainfun();
-  },
-  mainfun() {
-    todolist.innerHTML = "";
-    list.forEach((value, index) => {
-      todolist.innerHTML += `<li> ${value} 
-      <button onclick = "todoapp.delete(${index})">x</button></li>`;
-    });
-  },
-  delete(index) {
-    list.splice(index, 1);
-    this.mainfun();
-  },
-  clearAll() {
-    list.splice(0, list.length);
-    this.mainfun();
-  },
+//   // darktheme() {
+//   //   theme.style.backgroundColor = "black";
+//   //   list.style.color = "white";
+//   //   this.mainfun();
+//   // },
+// };
+// ==================================
+// let theme = document.querySelector("body");
+// let myinput = document.getElementById("input");
+// let todolist = document.querySelector("#list");
+// list = [];
 
-  darktheme() {
-    theme.style.backgroundColor = "black";
-    this.mainfun();
-  },
-};
+// let todoapp = {
+//   addItem() {
+//     if (input.value) {
+//       list.push(input.value);
+//       input.value = "";
+//     }
+//   },
+//   myfun,
+// };
+
+// ==============================================================
